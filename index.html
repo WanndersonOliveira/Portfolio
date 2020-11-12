@@ -1,0 +1,368 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="jquery\dist\jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap\dist\css\bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap\dist\js\bootstrap.min.js"></script>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      #first, #sec, #third,#fourth,#fifth, #sixty  {
+      	height: 100%;
+      	background-color: #006622;
+      }
+
+      #first {
+	z-index: 0;
+      }
+
+      #sec {
+	z-index: 10;
+        background-color:black;
+      }
+
+      #third {
+        background-color:blue;
+      }
+
+      #fourth {
+	height:300%;
+        background-color:grey;
+      }
+
+      #fifth {
+        background-color:#ff4d4d;
+      }
+
+      #sixty {
+        background-color:#006622;
+      }
+
+      #img {
+        position: relative;
+        left: 20%;
+	top:0%;
+        width:80%;
+	height:100%;
+	border-radius: 0% 0% 0% 50%;
+	z-index:0;
+	border-style:solid;
+	border-width:10px;
+	border-color:white;
+      }
+
+      #title {
+         position: absolute;
+         left:9%;
+         top:85%;
+         width: 550px;
+         height: 200px;
+      }
+
+      #titulo, #subtitulo {
+	 font-size: 3rem;
+	 font-family: Monospace;
+         color: white;
+      }
+
+      #subtitulo {
+	 font-size: 2rem;
+      }
+
+      #content {
+	position: relative;
+	top: 20%;
+	left: 10%;
+	width: 750px;
+	height: 70%;
+      }
+
+      #skills, titulo {
+	 position: absolute;
+	 top: 20%;
+	 color: white;
+	 font-size: 4rem;
+	 font-family: Monospace;
+	 font-weight: bold;
+      }
+
+      #lista {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	width: 85%;
+	height:50%;
+      }
+
+      #html, #css3, #js, #php{
+	position: relative;
+	height:25%;
+      }
+
+
+      #htmlp, #css3p, #jsp, #phpp {
+	position: relative;
+	top: 30%;
+	font-size: 3rem;
+	color:white;
+	font-family: Monospace;
+	font-weight: bold;
+      }
+
+      conteudo, content {
+	position:relative;
+	top: 10%;
+	left:10%;
+	
+	width: 750px;
+	height:70%;
+      }
+
+      titulo {
+	 top: 0%;
+      }
+
+      texto{
+	 position: absolute;
+	 top: 20%;
+	 left: 15%;
+	 width: 85%;
+	 height:80%;
+	 color:white;
+	 font-size:2.2rem;
+	 text-align:justify;
+	 font-family:Monospace;
+      }
+
+      content {
+	 top: 5%;
+	 width:800px;
+	 height:90%;
+      }
+
+      .card {
+	 position:relative;
+	 top: 200px;
+	 height:500px;
+      }
+
+      #botao {
+	 position: relative;
+	 top: 2700px;
+	 left: 35%;
+	 width:15rem;
+	 font-size:2.5rem;
+	 font-weight:bold;
+      } 
+
+      text {
+	 position: absolute;
+	 top: 15%;
+	 left: 15%;
+	 height:70%;
+	 width: 80%;
+	 font-size:3rem;
+	 font-family:Monospace;
+	 color:white;
+      }
+
+      apresentacao {
+	 position: absolute;
+	 top: 10%;
+	 left: 0%;
+
+	 font-size:2.8rem;
+	 text-align:justify;
+	 font-family:Monospace;
+	 color:white;
+      }
+
+      #linkedin_img, #outlook_img, email, linkedin {
+	 position: absolute;
+	 top:40%;
+	 left:5%;
+	 width:150px;
+	 border-radius:15%;
+      }
+
+      #outlook_img, email {
+	top: 60%;
+      }
+	
+      email, linkedin {
+	top:63%;
+	left: 28%;
+	font-size:3rem;
+	font-family:Monospace;
+	color:white;
+	font-weight:bold;
+      }
+
+      linkedin {
+	 top: 43%;
+	 left: 28%;
+      }
+
+      @media only screen and (min-device-width: 900px) {
+    	    #title {
+		top: 80%;
+	    }
+      }
+      
+    </style>
+
+    <script>
+	$(document).ready(function(){
+	     $("#botao").click(function(){
+		window.location.href = "https://github.com/WanndersonOliveira";
+	     });
+	});
+    </script>
+    
+    <div class="container-fluid">
+      <div class="row" id="first">
+	<img src="public/img/perfil.png" id="img">
+	<div id="title">
+	    <p id="titulo">Wannderson Nogueira</p>
+	    <p id="subtitulo">Desenvolvedor Web</p>
+	</div>
+      </div>
+
+      <div class="row" id="sec">
+	<div id="content">
+	   <p id="skills">SKILLS</p>
+	
+	   <div id="lista">
+		<div id="html">
+			<p id="htmlp">HTML5</p>
+			<div class="progress" style="height: 80px;width:400px;position:relative;left:220px;top:-30%;">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+			</div>
+		<div id="css3">
+			<p id="css3p">CSS3</p>
+			<div class="progress" style="height: 80px;width:400px;position:relative;left:220px;top:-30%;">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 78%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>	
+			</div>
+		<div id="js">
+			<p id="jsp">JS</p>
+			
+			<div class="progress" style="height: 80px;width:400px;position:relative;left:220px;top:-30%;">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>	
+		</div>
+
+		<div id="php">
+			<p id="phpp">PHP</p>
+			
+			<div class="progress" style="height: 80px;width:400px;position:relative;left:220px;top:-30%;">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>	
+			</div>
+		</div>
+	   </div>
+	</div>
+      </div>
+
+      <div class="row" id="third">
+	   <conteudo>
+		<titulo>RESUMO</titulo>
+		<texto>Sou estudante do curso de Tecnologia em Análise e Desenvolvimento de Sistemas no IFRN em Natal/RN. Durante o curso, desenvolvi uma estima ímpar pelo desenvolvimento web, desde o primeiro semestre do curso, na disciplina de Web Design. Então, isso me inspirou a estudar e aprender mais sobre as suas tecnologias envolvidas. <br><br>Hoje não tenho conhecimento apenas em front-end, mas também em back-end. Eis as tecnologias web que eu domino:<br><br>
+			<ul>
+				<li>jQuery</li>
+				<li>PHP</li>
+				<li>Bootstrap</li>
+				<li>AngularJS</li>
+				<li>VueJS</li>
+				<li>AJAX</li>
+				<li>API REST</li>
+			</ul>
+		
+		</texto>
+	   </conteudo>
+      </div>
+
+      <div class="row" id="fourth">
+	<content>
+	    <titulo>TRABALHOS</titulo>
+	    <div class="card" style="width: 50rem;">
+		<a href="https://wanndersonoliveira.github.io/Money_Bank/" style="text-decoration: none;">
+  		<img src="public/img/moneybank.png" class="card-img-top" alt="...">
+  		<div class="card-body">
+    		<h5 class="card-title" style="font-size:3.5rem;color:white;font-family:Monospace;">Money Bank</h5>
+    		<p class="card-text" style="color:white;font-size:2.5rem;font-family:Monospace;">Protótipo de um site de um banco fictício. Protótipo não-responsivo.
+		</p>		
+  	    </div>
+		</a>
+	    </div>
+
+	    <div class="card" style="width: 50rem;top: 600px;">
+		<a href="https://wanndersonoliveira.github.io/Amphibia/" style="text-decoration: none;">
+  		<img src="public/img/amphibia.png" class="card-img-top" alt="...">
+  		<div class="card-body">
+    		<h5 class="card-title" style="font-size:3.5rem;color:white;font-family:Monospace;">Amphibia</h5>
+    		<p class="card-text" style="color:white;font-size:2.5rem;font-family:Monospace;">Site de uma ONG fictícia. Protótipo não-responsivo.
+		</p>
+  	    </div>
+		</a>
+	    </div>
+
+	    <div class="card" style="width: 50rem;top: 1000px;">
+		<a href="https://wanndersonoliveira.github.io/Split/" style="text-decoration: none;">
+  		<img src="public/img/split.png" class="card-img-top" alt="...">
+  		<div class="card-body">
+    		<h5 class="card-title" style="font-size:3.5rem;color:white;font-family:Monospace;">Split</h5>
+    		<p class="card-text" style="color:white;font-size:2.5rem;font-family:Monospace;">Protótipo de uma rede social fictícia. Apresenta apenas a página inicial, onde a validação de formulário é feito com Javascript e a página Home da rede social. Não é responsivo. Visualização em computador. Usuário: user; Senha: default.
+		</p>		
+  	    </div>
+		</a>
+	    </div>
+	
+	    <div class="card" style="width: 50rem;top: 1600px;">
+		<a href="https://wanndersonoliveira.github.io/kaolis/" style="text-decoration: none;">
+  		<img src="public/img/kaolis.png" class="card-img-top" alt="...">
+  		<div class="card-body">
+    		<h5 class="card-title" style="font-size:3.5rem;color:white;font-family:Monospace;">Kaolis</h5>
+    		<p class="card-text" style="color:white;font-size:2.5rem;font-family:Monospace;">Site explositivo para venda de produtos da Tupperware. 
+		</p>		
+  	    </div>
+		</a>
+	    </div>
+
+	    <button type="button" class="btn btn-primary" id="botao" href="https://wanndersonoliveira.github.io/kaolis/">Ver mais</button>
+	</content>
+      </div>
+
+          
+
+      <div class="row" id="fifth">
+	  <conteudo>
+		<titulo>EXPERIÊNCIA</titulo>
+		<text>
+		    <ul>
+			<li><b>IFRN (2018-2019): </b>Manutenção e programação do Sistema de Medição de Evasão Acadêmica</li>
+			<li><b>NAVI (2019): </b>Manutenção, homologação e testes do Retratos da Atenção Primária (<b><a href="https://retratos.navi.ifrn.edu.br/">link</a></b>)</li>
+		    </ul>
+		</text>
+	  </conteudo>
+      </div>
+
+      <div class="row" id="sixty">
+	 <conteudo>
+		<titulo>CONTATOS</titulo>
+		<apresentacao>Estou profundamente interessado em contribuir com a sua empresa, entre em contato:</apresentacao>
+			<img src="public/img/linkedin.jpeg" id="linkedin_img">
+			<linkedin><a href="https://www.linkedin.com/in/wannderson-nogueira-7288b3182/">Link</a></linkedin>
+			<img src="public/img/outlook.png" id="outlook_img">
+			<email>wannders.35@hotmail.com</email>
+	 </conteudo>
+      </div>
+    </div>
+  </body>
+</html>
