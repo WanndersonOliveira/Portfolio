@@ -217,11 +217,52 @@
 	    }
       }
 
+      @media only screen and (min-device-width: 340px){
+	 #fourth {
+		height: 310%;
+	 }
+      }
+
+      @media only screen and (min-device-width: 350px){
+	 #fourth {
+		height: 320%;
+	 }
+      }
+
+      @media only screen and (min-device-width: 370px){
+	 #fourth {
+		height: 340%;
+	 }
+      }
+
+      @media only screen and (min-device-width: 390px){
+	 #fourth {
+		height: 350%;
+	 }
+      }
+
       @media only screen and (min-device-width: 400px){
+	 #fourth {
+		height: 360%;
+	 }
+
 	 text {
 		top: 30%;
-	    }
+	 }
       }
+
+      @media only screen and (min-device-width: 410px){
+	 #fourth {
+		height: 370%;
+	 }
+      }
+
+      @media only screen and (min-device-width: 420px){
+	 #fourth {
+		height: 380%;
+	 }
+      }
+
 
       @media only screen and (min-device-width: 900px) {
     	    #title {
