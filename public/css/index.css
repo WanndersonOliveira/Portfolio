@@ -1,0 +1,319 @@
+      body {
+        background-color: black;
+      }
+
+      #first, #sec, #third,#fourth,#fifth, #sixty  {
+      	height: 100%;
+      	background-color: #006622;
+      }
+
+      #first {
+	z-index: 0;
+      }
+
+      #sec {
+	z-index: 10;
+        background-color:black;
+      }
+
+      #third {
+        background-color:blue;
+      }
+
+      #fourth {
+	height:300%;
+        background-color:grey;
+      }
+
+      #fifth {
+        background-color:#ff4d4d;
+      }
+
+      #sixty {
+        background-color:#006622;
+      }
+
+      #img {
+        position: relative;
+        left: 20%;
+	top:0%;
+        width:80%;
+	height:100%;
+	border-radius: 0% 0% 0% 50%;
+	z-index:0;
+	border-style:solid;
+	border-width:10px;
+	border-color:white;
+      }
+
+      #title {
+         position: absolute;
+         left:9%;
+         top:85%;
+         width: 550px;
+         height: 200px;
+      }
+
+      #titulo, #subtitulo {
+	 font-size: 3rem;
+	 font-family: Monospace;
+         color: white;
+      }
+
+      #subtitulo {
+	 font-size: 2rem;
+      }
+
+      #content {
+	position: relative;
+	top: 20%;
+	left: 10%;
+	width: 750px;
+	height: 70%;
+      }
+
+      #skills, titulo {
+	 position: absolute;
+	 top: 20%;
+	 color: white;
+	 font-size: 4rem;
+	 font-family: Monospace;
+	 font-weight: bold;
+      }
+
+      #lista {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	width: 85%;
+	height:50%;
+      }
+
+      #html, #css3, #js, #php{
+	position: relative;
+	height:25%;
+      }
+
+
+      #htmlp, #css3p, #jsp, #phpp {
+	position: relative;
+	top: 30%;
+	font-size: 3rem;
+	color:white;
+	font-family: Monospace;
+	font-weight: bold;
+      }
+
+      #htmlbar {	
+	  position:relative;
+          left:220px;
+          top:-30%;
+	  height:80px;
+	  width:400px;
+      }
+
+      conteudo, content {
+	position:relative;
+	top: 10%;
+	left:10%;
+	
+	width: 750px;
+	height:70%;
+      }
+
+      titulo {
+	 top: 0%;
+      }
+
+      .card {
+	  width: 50rem;
+      }
+
+      texto{
+	 position: absolute;
+	 top: 20%;
+	 left: 15%;
+	 width: 85%;
+	 height:80%;
+	 color:white;
+	 font-size:2.2rem;
+	 text-align:justify;
+	 font-family:Monospace;
+      }
+
+      content {
+	 top: 5%;
+	 width:800px;
+	 height:90%;
+      }
+
+      .card {
+	 position:relative;
+	 top: 200px;
+	 height:500px;
+      }
+
+      #botao {
+	 position: relative;
+	 top: 2700px;
+	 left: 35%;
+	 width:15rem;
+	 font-size:2.5rem;
+	 font-weight:bold;
+      } 
+
+      text {
+	 position: absolute;
+	 top: 15%;
+	 left: 15%;
+	 height:70%;
+	 width: 80%;
+	 font-size:3rem;
+	 font-family:Monospace;
+	 color:white;
+      }
+
+      apresentacao {
+	 position: absolute;
+	 top: 10%;
+	 left: 0%;
+
+	 font-size:2.8rem;
+	 text-align:justify;
+	 font-family:Monospace;
+	 color:white;
+      }
+
+      #linkedin_img, #outlook_img, email, linkedin {
+	 position: absolute;
+	 top:40%;
+	 left:5%;
+	 width:150px;
+	 border-radius:15%;
+      }
+
+      #outlook_img, email {
+	top: 60%;
+      }
+	
+      email, linkedin {
+	top:63%;
+	left: 28%;
+	font-size:3rem;
+	font-family:Monospace;
+	color:white;
+	font-weight:bold;
+      }
+
+      linkedin {
+	 top: 43%;
+	 left: 28%;
+      }
+
+      
+      @media only screen and (min-device-width: 320px){
+	 text {
+		top: 30%;
+	    }
+      }
+
+      @media only screen and (min-device-width: 400px){
+	 text {
+		top: 30%;
+	    }
+      }
+
+      @media only screen and (min-device-width: 900px) {
+    	    #title {
+		top: 80%;
+	    }
+      }
+
+      @media only screen and (min-device-width: 768px) {
+    	    #fourth {
+		height:400%;
+	    }
+      }
+
+      @media only screen and (min-device-width: 1024px) {
+    	    #fourth {
+		height:380%;
+	    }
+      }
+
+      @media only screen and (min-device-width: 1200px) {
+	    #img {
+		left: 40%;
+		width:60%;
+	    }
+
+    	    #content {
+		top: 5%;
+	    }
+
+	    #lista {
+		top: 45%;
+	    }
+
+	    #third {
+		height: 200%;
+	    }
+
+	    #fourth {
+		height: 750%;
+	    }
+
+	    #htmlbar {
+		top:-85%;
+		height:40px;
+		left:170px;
+	    }
+
+	    .card {
+	  	width: 40rem;
+		height: 26rem;
+		left: 35%;
+      	    }
+	
+	    #botao {
+		left: 50%;
+	    }
+
+	    #fifth {
+		height: 130%;
+	    }
+
+	    #sixty {
+		height: 200%;
+	    }
+
+	    #linkedin_img {
+		top: 53%;
+		width:100px;
+	    }
+
+	    #outlook_img {
+		top: 75%;
+		width:100px;
+	    }
+	
+	    linkedin {
+		top: 55%;
+		left: 35%;		
+		font-size:2rem;
+	    }
+
+	    email {
+		top: 77%;
+		left: 35%;
+		font-size:2rem;
+	    }
+
+	    apresentacao {
+		top: 15%;
+	    }
+
+	    text {
+		top: 25%;
+	    }
+      }
