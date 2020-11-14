@@ -225,38 +225,48 @@
 
       
       @media only screen and (min-device-width: 320px){
-	 text {
-		top: 30%;
+	 	text {
+			top: 30%;
 	    }
+
+	    #fourth {
+	    	height: 315%;
+	    }
+      }
+
+
+      @media only screen and (min-device-width: 330px){
+      	#fourth{
+      		height: 323%;
+      	}
       }
 
       @media only screen and (min-device-width: 340px){
 	 #fourth {
-		height: 310%;
+		height: 333%;
 	 }
       }
 
       @media only screen and (min-device-width: 350px){
 	 #fourth {
-		height: 320%;
+		height: 350%;
 	 }
       }
 
       @media only screen and (min-device-width: 370px){
 	 #fourth {
-		height: 340%;
+		height: 370%;
 	 }
       }
 
       @media only screen and (min-device-width: 390px){
 	 #fourth {
-		height: 350%;
-	 }
+		height: 390%;	 
       }
 
       @media only screen and (min-device-width: 400px){
 	 #fourth {
-		height: 360%;
+		height: 400%;
 	 }
 
 	 text {
@@ -266,35 +276,39 @@
 
       @media only screen and (min-device-width: 410px){
 	 #fourth {
-		height: 370%;
+		height: 410%;
 	 }
       }
 
       @media only screen and (min-device-width: 420px){
 	 #fourth {
-		height: 380%;
+		height: 420%;
 	 }
       }
 
-      @media only screen and (min-device-width: 445px){
+      @media only screen and (min-device-width: 440px){
 	 #fourth {
-		height: 400%;
+		height: 440%;
 	 }
       }
 
-
+      /*Precisa corrigir*/
       @media only screen and (min-device-width: 900px) {
-    	    #title {
+    	#title {
 		top: 80%;
 	    }
       }
 
+
+      /*Precisa corrigir*/
       @media only screen and (min-device-width: 768px) {
-    	    #fourth {
+    	#fourth {
 		height:400%;
 	    }
       }
 
+
+      /*Precisa corrigir*/
       @media only screen and (min-device-width: 1024px) {
     	    #fourth {
 		height:380%;
@@ -320,7 +334,7 @@
 	    }
 
 	    #fourth {
-		height: 750%;
+		height: 630%;
 	    }
 
 	    #htmlbar {
@@ -376,4 +390,12 @@
 	    text {
 		top: 25%;
 	    }
+      }
+
+
+      @media only screen and (min-device-width: 1300px) {
+      	#fourth{
+      		height: 800%;
+      	}
+
       }
